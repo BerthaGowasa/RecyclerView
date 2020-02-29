@@ -56,9 +56,9 @@ public class HeroesAdapter extends RecyclerView.Adapter<HeroesAdapter.ViewHolder
             public void onClick(View v) {
                 Intent intent = new Intent(context, DetailPahlawan.class);
 
-                intent.putExtra("iv_detail", getListHero().get(i).getHeroImage());
-                intent.putExtra("team_title", getListHero().get(i).getHeroName());
-                intent.putExtra("team_description", getListHero().get(i).getHeroDetail());
+                intent.putExtra("img_url", getListHero().get(i).getHeroImage());
+                intent.putExtra("name", getListHero().get(i).getHeroName());
+                intent.putExtra("detail", getListHero().get(i).getHeroDetail());
                 context.startActivity(intent);
             }
         });
