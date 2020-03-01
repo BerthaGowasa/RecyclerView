@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="120dp"
+    android:background="@drawable/bendera"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,14 +28,17 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Ahmad Dahlan"
+                android:layout_marginLeft="10dp"
                 android:textSize="25dp"
-                android:textStyle="bold|italic"/>
+                android:textStyle="bold|italic"
+                android:background="#FFFACD"/>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
                 android:gravity="center">
 
                 <Button
@@ -43,7 +47,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginHorizontal="5dp"
-                    android:text="Share"/>
+                    android:text="Share"
+                    android:background="#E9967A"
+                    />
 
                 <Button
                     android:id="@+id/btn_lihat"
@@ -51,7 +57,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginHorizontal="5dp"
-                    android:text="Lihat"/>
+                    android:text="Lihat"
+                    android:background=" 	#8FBC8F"/>
             </LinearLayout>
         </LinearLayout>
 

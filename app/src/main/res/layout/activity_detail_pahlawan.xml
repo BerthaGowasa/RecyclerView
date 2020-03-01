@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailPahlawan">
+    tools:context=".DetailPahlawan"
+    android:background="@drawable/bendera">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
         android:id="@+id/iv_detail"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:src="@drawable/ahmadyani"
+        android:src="@drawable/ahmaddahlan"
         android:layout_gravity="center"
         android:layout_weight="1"
         />
@@ -42,7 +43,7 @@
         android:layout_marginEnd="15dp"
         android:text="@string/descahmad_dahlan"
         android:layout_marginLeft="15dp"
-
+        android:textColor=" #98FB98"
         />
 
 
